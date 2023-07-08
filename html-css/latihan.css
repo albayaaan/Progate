@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background-color: #404146;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px 30px;
+}
+
+.header-logo {
+    letter-spacing: 5px;
+    margin-right: 35px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px 0;
+    text-align: center;
+    color: #404146;
+}
+
+.hero h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+.hero h3 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.hero span {
+    color: #f7e989;
+}
+
+.hero img {
+    width: 20%;
+}
+
+.about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 80px 150px;
+    color: #404146;
+}
+
+.about h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.proyek {
+    text-align: center;
+    padding: 80px 50px;
+    color: #404146;
+}
+
+.proyek h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 33%;
+}
+
+.card img {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 80px 150px;
+    color: #404146;
+}
+
+.contact h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.contact input,
+textarea {
+    width: 80%;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#btn {
+    background-color: #f7e989;
+    width: 50%;
+}
+
+footer {
+    background-color: #7c7d82;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 30px;
+}
+
+.footer-logo {
+    letter-spacing: 5px;
+    margin-right: 35px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
