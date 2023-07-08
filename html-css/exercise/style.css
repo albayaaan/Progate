@@ -25,6 +25,10 @@ nav a {
     text-decoration: none;
 }
 
+.icon {
+    display: none;
+}
+
 .hero {
     padding: 50px 0;
     text-align: center;
@@ -77,6 +81,7 @@ nav a {
 .card-list {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .card {
@@ -139,4 +144,55 @@ footer {
 .footer-nav a {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+        padding-left: 15px;
+    }
+
+    .hero h1 {
+        font-size: 70px;
+    }
+
+    .hero h3 {
+        font-size: 50px;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+
+    .about {
+        padding: 80px 10px;
+    }
+
+    .card-list {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 80px 8px;
+    }
+
+    footer {
+        align-items: center;
+    }
 }
