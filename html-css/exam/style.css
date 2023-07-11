@@ -269,3 +269,98 @@ nav.nohome {
 .btn svg {
     margin-right: 10px;
 }
+
+.left,
+.right {
+    flex: 1;
+}
+
+.right img {
+    width: 100%;
+}
+
+.findus h3 {
+    border: none;
+}
+
+.findus {
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.card-info {
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.card-info > h4 {
+    color: #143642;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.card-info > p {
+    font-size: 16px;
+}
+
+.help {
+    display: block;
+    margin-bottom: 0;
+}
+
+.help > h3 {
+    border: none;
+}
+
+.help form {
+    padding: 50px 90px;
+    border-radius: 20px;
+    border: 2px solid #d2d2d2;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.help .btn {
+    width: fit-content;
+}
+
+.input-line {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.input-line input,
+.input-line textarea {
+    padding: 20px 40px;
+    color: #d2d2d2;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid #d2d2d2;
+}
+
+.input-line label {
+    color: #143642;
+    font-size: 24px;
+}
+
+.input-textarea {
+    align-items: start;
+}
+
+.input-textarea > label {
+    margin-top: 20px;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
